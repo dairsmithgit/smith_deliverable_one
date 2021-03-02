@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+* {
+    font-family: 'Bungee', cursive;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    font-variant-caps: all-small-caps;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.about_section {
+    background-color: #ff00ff;
+}
+.header {
+    text-align: top;
+}
+.logo_img {
+    height: 120px;
+    width: 266px;
+}
+#ul_nav_bar li {
+    display: inline
+}
+nav ul {
+    list-style: none;
+    border: none;
+    text-align: right;
+}
+a {
+    color: #7944e6;
+}
+a:hover {
+    color: #10fdff;
+}
+.coffee_section {
+    text-align: center;
+    border: solid 5px #7944e6;
+    width: 50%;
+    margin: 50px auto;
+}
+.cream_section {
+    text-align: center;
+    border: solid 5px #7944e6;
+    width: 50%;
+    margin: 50px auto;
+}
+.cookie_section {
+    text-align: center;
+    border: solid 5px #7944e6;
+    width: 50%;
+    margin: 50px auto;
+}
+@media screen and (min-width: 768px) {
+    .about_section {
+        display: flex;
+        flex-direction: row;
+        padding: 25px;
+        align-items: center;
+    }
+    .menu_section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
